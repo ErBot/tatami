@@ -14,18 +14,16 @@
     <img class="ui image toplogo" src="https://cdn.shopify.com/s/files/1/2571/0138/files/logo.png?v=1534502091">
   </div>
 
-  <div class="column">
-    <div class="ui grid">
-      <div class="row">
-        <div class="ui right category search">
-          <div class="ui icon input">
-            <input class="prompt" type="text" placeholder="search">
-            <i class="search icon"></i>
-          </div>
-          <div class="results"></div>
-        </div>
+  <div class="right aligned column">
+    <div class="ui right category search">
+      <div class="ui icon input">
+        <input class="prompt" type="text" placeholder="search">
+        <i class="search icon"></i>
       </div>
-      <div class="row">
+      <div class="results"></div>
+    </div>
+    <div class="ui horizontal list">
+      <div class="item">
         <div class="ui inverted compact menu">
           <div class="ui simple dropdown item">
             Country
@@ -37,32 +35,34 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="item">
         <div class="text">FLAT RATE $9.99</div>
       </div>
-      <div class="row">
-        <div class="ui dropdown fitted item">
-          <div class="text"><i class="shopping bag icon"></i>Shopping Cart <a
-              class="ui small pink circular label">0</a>
-          </div>
-          <div class="menu">
-            <div class="item">Your cart is currently empty.</div>
-          </div>
+    </div>
+    <div class="ui horizontal list">
+      <div class="ui dropdown fitted item">
+        <div class="text"><i class="shopping bag icon"></i>Shopping Cart <a
+            class="ui small pink circular label">0</a>
         </div>
-        <div class="ui fitted item">
-          <i class="heart icon"></i>
-          My Wishlist
+        <div class="menu">
+          <div class="item">Your cart is currently empty.</div>
         </div>
-        <div class="ui item">
-          <div class="text">
-            <a href="">  Sign In</a> or <a href="">Create an account</a>
-          </div>
+      </div>
+      <div class="ui fitted item">
+        <i class="heart icon"></i>
+        My Wishlist
+      </div>
+      <div class="ui item">
+        <div class="text">
+          <a href="">  Sign In</a> or <a href="">Create an account</a>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="ui borderless inverted middlemenu menu">
+<div class="ui borderless inverted menu">
   <div class="ui centered grid container">
     <div class="ui dropdown item">
       <div class="text">MENS</div>
@@ -134,7 +134,7 @@
   </div>
 </div>
 
-<div class="ui fluid image">
+<div class="ui image">
   <img src="https://cdn.shopify.com/s/files/1/2571/0138/files/Rotational-FlipFlops_2000x.jpg?v=1566916056">
 </div>
 
@@ -163,7 +163,7 @@
   GI'S CURRENTLY IN STOCK
 </h4>
 
-<div class="ui six doubling cards">
+<div class="ui six doubling borderless cards">
   <div class="card">
     <div class="image">
       <img src="https://cdn.shopify.com/s/files/1/2571/0138/products/Minimo-2-White-CROUCH_large.jpg?v=1556104436">
@@ -177,7 +177,7 @@
       <img src="https://cdn.shopify.com/s/files/1/2571/0138/products/Minimo-2-Black-CROUCH_1_large.jpg?v=1556104443">
     </div>
     <div class="extra">
-      <div class="ui star rating" data-rating="5"></div>
+      <div class="ui star rating" data-rating="2"></div>
     </div>
   </div>
   <div class="card">
@@ -185,7 +185,7 @@
       <img src="https://cdn.shopify.com/s/files/1/2571/0138/products/Minimo-2-Black-CROUCH_large.jpg?v=1556104451">
     </div>
     <div class="extra">
-      <div class="ui star rating" data-rating="5"></div>
+      <div class="ui star rating" data-rating="3"></div>
     </div>
   </div>
   <div class="card">
@@ -193,7 +193,7 @@
       <img src="https://cdn.shopify.com/s/files/1/2571/0138/products/thumbnail_8202528c-efe2-4c5a-9064-8096fc6d573a_large.jpg?v=1556103669">
     </div>
     <div class="extra">
-      <div class="ui star rating" data-rating="5"></div>
+      <div class="ui star rating" data-rating="4"></div>
     </div>
   </div>
   <div class="card">
@@ -201,8 +201,7 @@
       <img src="https://cdn.shopify.com/s/files/1/2571/0138/products/thumbnail_8202528c-efe2-4c5a-9064-8096fc6d573a_large.jpg?v=1556103669">
     </div>
     <div class="extra">
-      Rating:
-      <div class="ui star rating" data-rating="5"></div>
+      <div class="ui star rating" data-rating="3"></div>
     </div>
   </div>
   <div class="card">
@@ -210,13 +209,13 @@
       <img src="https://cdn.shopify.com/s/files/1/2571/0138/products/thumbnail_ce755e6c-0a5f-4f54-b869-e5e9f532f7e0_large.jpg?v=1556103650">
     </div>
     <div class="extra">
-      <div class="ui star rating" data-rating="5"></div>
+      <div class="ui star rating" data-rating="4"></div>
     </div>
   </div>
 </div>
 
 <div class="footer-background">
-  <div class="ui three column grid container">
+  <div class="ui four column grid container">
     <div class="column">
       NAVIGATION
       <hr/>
@@ -224,6 +223,15 @@
         <div class="item">About Us</div>
         <div class="item">Video</div>
         <div class="item">Store</div>
+      </div>
+    </div>
+    <div class="column">
+      MAIN MENU
+      <hr/>
+      <div class="ui list">
+        <div class="item">Mens</div>
+        <div class="item">Womens</div>
+        <div class="item">Kids</div>
       </div>
     </div>
     <div class="column">
@@ -258,7 +266,7 @@
 </script>
 <script>
   $('.ui.rating')
-      .rating('disable')
+      .rating()
   ;
 </script>
 
