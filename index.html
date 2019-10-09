@@ -14,7 +14,7 @@
     <img class="ui image toplogo" src="https://cdn.shopify.com/s/files/1/2571/0138/files/logo.png?v=1534502091">
   </div>
 
-  <div class="right aligned column">
+  <div style="margin-top: 10px; margin-bottom: 50px" class="right aligned column">
     <div class="ui right category search">
       <div class="ui icon input">
         <input class="prompt" type="text" placeholder="search">
@@ -26,7 +26,7 @@
       <div class="item">
         <div class="ui inverted compact menu">
           <div class="ui simple dropdown item">
-            Country
+            COUNTRY SELECT
             <i class="dropdown icon"></i>
             <div class="menu">
               <div class="item">Choice 1</div>
@@ -59,10 +59,15 @@
         </div>
       </div>
     </div>
+    <div class="ui item">
+      <div class="text">
+        <a href="">  Sign up/Sign in to Wholesale Account</a>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="ui borderless inverted menu">
+<div style="margin: 0px" class="ui borderless inverted menu">
   <div class="ui centered grid container">
     <div class="ui dropdown item">
       <div class="text">MENS</div>
@@ -163,13 +168,14 @@
   GI'S CURRENTLY IN STOCK
 </h4>
 
-<div class="ui six doubling borderless cards">
+<div class="ui six doubling cards">
   <div class="card">
     <div class="image">
       <img src="https://cdn.shopify.com/s/files/1/2571/0138/products/Minimo-2-White-CROUCH_large.jpg?v=1556104436">
     </div>
     <div class="extra">
       <div class="ui star rating" data-rating="4"></div>
+      17 Reviews
     </div>
   </div>
   <div class="card">
@@ -177,7 +183,8 @@
       <img src="https://cdn.shopify.com/s/files/1/2571/0138/products/Minimo-2-Black-CROUCH_1_large.jpg?v=1556104443">
     </div>
     <div class="extra">
-      <div class="ui star rating" data-rating="2"></div>
+      <div class="ui star rating" data-rating="5"></div>
+      14 Reviews
     </div>
   </div>
   <div class="card">
@@ -185,7 +192,8 @@
       <img src="https://cdn.shopify.com/s/files/1/2571/0138/products/Minimo-2-Black-CROUCH_large.jpg?v=1556104451">
     </div>
     <div class="extra">
-      <div class="ui star rating" data-rating="3"></div>
+      <div class="ui star rating" data-rating="5"></div>
+      13 Reviews
     </div>
   </div>
   <div class="card">
@@ -193,7 +201,8 @@
       <img src="https://cdn.shopify.com/s/files/1/2571/0138/products/thumbnail_8202528c-efe2-4c5a-9064-8096fc6d573a_large.jpg?v=1556103669">
     </div>
     <div class="extra">
-      <div class="ui star rating" data-rating="4"></div>
+      <div class="ui star rating" data-rating="5"></div>
+      12 Reviews
     </div>
   </div>
   <div class="card">
@@ -202,6 +211,7 @@
     </div>
     <div class="extra">
       <div class="ui star rating" data-rating="3"></div>
+      23 Reviews
     </div>
   </div>
   <div class="card">
@@ -209,10 +219,15 @@
       <img src="https://cdn.shopify.com/s/files/1/2571/0138/products/thumbnail_ce755e6c-0a5f-4f54-b869-e5e9f532f7e0_large.jpg?v=1556103650">
     </div>
     <div class="extra">
-      <div class="ui star rating" data-rating="4"></div>
+      <div class="ui star rating" data-rating="5"></div>
+      18 Reviews
     </div>
   </div>
 </div>
+
+<h4 class="ui horizontal divider header">
+  SPRING SUMMER 2019 COLLECTION
+</h4>
 
 <div class="footer-background">
   <div class="ui four column grid container">
@@ -252,7 +267,13 @@
     <div class="column">
       STAY CONNECTED
       <hr/>
-      NEWSLETTER SIGN UP
+      <div class="ui horizontal list">
+        <div class="item"><a class="ui white circular label"><i class="facebook f icon"></i></a></div>
+        <div class="item"><a class="ui white circular label"><i class="twitter f icon"></i></a></div>
+        <div class="item"><a class="ui white circular label"><i class="instagram f icon"></i></a></div>
+        <div class="item"><a class="ui white circular label"><i class="youtube f icon"></i></a></div>
+      </div>
+      <div class="text">NEWSLETTER SIGN UP</div>
       <hr/>
       <div class="ui list">
         <div class="item">Sign up for the latest updates</div>
@@ -274,32 +295,16 @@
 </script>
 <script>
   $('.ui.rating')
-      .rating()
+      .rating({
+        maxRating: 5
+      })
   ;
 </script>
-
 
 </body>
 </html>
 
 
-<!--
-<div class="ui borderless topmenu menu">
-  <div class="ui container">
-    <a class="fitted item"><i class="facebook f icon"></i></a>
-    <a class="fitted item"><i class="twitter icon"></i></a>
-    <a class="fitted item"><i class="pinterest f icon"></i></a>
-    <a class="fitted item"><i class="instagram icon"></i></a>
-    <a class="fitted right item"><i class="home icon"></i></a>
-    <a class="fitted item"><i class="search icon"></i></a>
-    <a class="fitted item"><i class="user icon"></i></a>
-    <div class="ui dropdown fitted item">
-      <div class="text">MY CART<i class="search icon"></i> 0 </div>
-      <i class="dropdown icon"></i>
-      <div class="menu">
-        <div class="item">Your cart is currently empty.</div>
-      </div>
-    </div>
-  </div>
-</div>
--->
+
+
+
