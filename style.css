@@ -1,7 +1,12 @@
-.ui.borderless.topmenu.menu{
-  background-color: #f5f5f5;
+.ui.borderless.topgrid.menu{
+  background-color: white;
   box-shadow: none;
   border: none;
+}
+
+.ui.toplogo{
+  padding-top: 50px;
+  width: 225px;
 }
 
 .ui.borderless.countrymenu.menu{
@@ -15,4 +20,26 @@
   padding-top: 20px;
   padding-bottom: 20px;
 
+}
+
+.image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.cap1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cap2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
 }
